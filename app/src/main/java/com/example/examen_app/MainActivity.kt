@@ -19,6 +19,7 @@ import com.example.examen_app.ui.theme.Examen_appTheme
 import com.example.examen_app.Navigation.NavGraph
 import kotlin.getValue
 
+
 class MainActivity : ComponentActivity() {
     private val viewModel: AuthViewModel by viewModels()
     override fun onCreate(savedInstanceState: Bundle?) {

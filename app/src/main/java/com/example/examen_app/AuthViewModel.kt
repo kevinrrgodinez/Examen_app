@@ -6,6 +6,7 @@ class AuthViewModel : ViewModel() {
     // Simulamos una "base de datos" sencilla
     private val users = mutableMapOf<String, Pair<String, String>>() // email -> (password, name)
 
+
     fun registerUser(name: String, email: String, password: String) {
         users[email] = Pair(password, name)
     }

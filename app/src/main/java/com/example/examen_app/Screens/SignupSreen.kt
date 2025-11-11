@@ -40,6 +40,7 @@ fun SignupScreen(navController: NavController, viewModel: AuthViewModel) {
 
     var passwordVisible by remember { mutableStateOf(false) }
 
+
     val primaryColor = Color(0xFF3F51B5)
     val errorColor = MaterialTheme.colorScheme.error // Usamos el color de error del tema
     val backgroundColor = MaterialTheme.colorScheme.surfaceVariant

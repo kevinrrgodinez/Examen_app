@@ -119,7 +119,6 @@ fun LoginScreen(navController: NavController, viewModel: AuthViewModel) {
             ) {
                 Text("Iniciar Sesión", color = Color.White, fontSize = 16.sp, fontWeight = FontWeight.SemiBold)
             }
-
             Spacer(Modifier.height(10.dp))
             Row(
                 verticalAlignment = Alignment.CenterVertically

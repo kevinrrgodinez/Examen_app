@@ -32,6 +32,7 @@ fun WelcomeScreen(navController: NavController) {
         )
         Spacer(modifier = Modifier.height(32.dp))
         Button(
+
             onClick = { navController.popBackStack() }, // Vuelve a la pantalla anterior
             colors = ButtonDefaults.buttonColors(containerColor = Color(0xFFD32F2F))
         ) {
